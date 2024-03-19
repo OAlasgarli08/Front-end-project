@@ -1,0 +1,101 @@
+
+.headerOne{
+    padding-top: 10px;
+    font-size: 300;
+}
+
+.border{
+    border: 0.6px gray solid;
+}
+
+
+.container li{
+    display: inline-block;
+}
+
+.headerLeft{
+    margin-left: -100px;
+    display: inline-block;
+}
+
+.headerRight{
+    display: inline-block;
+    padding-left: 400px;
+}
+
+.headerLeft li{
+    color: blue;
+}
+
+.headerLeft li:first-child{
+    height: 25px;
+    border-right: 1px gray solid;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.language{
+    display: inline-block;
+    border-right: gray 1px solid;
+    padding-right: 20px;
+}
+
+.currency{
+    display: inline-block;
+    border-right: gray 1px solid;
+    padding-right: 20px;
+
+
+}
+
+.setting{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.language a, .currency a, .setting a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerTwo{
+    padding-top: 20px;
+    border-bottom: 1px lightgray solid;
+    box-shadow: 0px 3px rgba(200, 200, 200, 0.575);
+}
+
+
+.headerTwo a{
+    text-decoration: none;
+    color: black;
+}
+
+.page {
+    margin-left: -160px;
+}
+
+.page li{
+    padding-right: 10px;    
+}
+
+.search input{
+    margin-top: -10px;
+    width: 300px;
+    height: 40px;
+    border: gray solid 2px;
+    background-color: lightgray;
+}
+
+.search input{
+    display: inline-block;
+}
+
+.searchIcon{
+    padding-left: 275px;
+    display: inline-block;
+}
+
+.icons i{
+    margin-right: 10px;
+    cursor: pointer;
+}
