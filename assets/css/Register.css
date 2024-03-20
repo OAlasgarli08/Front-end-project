@@ -9,7 +9,7 @@
 }
 
 
-.container li{
+header .container li{
     display: inline-block;
 }
 
@@ -98,4 +98,174 @@
 .icons i{
     margin-right: 10px;
     cursor: pointer;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+
+
+main{
+    margin-top: 100px;
+    text-align: center;
+    border: 1px rgba(211, 211, 211, 0.253) solid;
+    width: 600px;
+    margin-left: 900px;
+    border-top: none;
+    box-shadow: 10px 10px 4px  rgba(211, 211, 211, 0.412);
+}
+
+.home a{
+    text-decoration: none;
+    color: gray;
+}
+
+.main p{
+    color: gray;
+}
+
+
+.Register{
+    margin-top: 200px;
+}
+
+.option1 div{
+    margin-right: 30px;
+    display: inline-block;
+    border: 2px lightgray solid;
+}
+
+
+.google{
+    width: 260px;
+    height: 50px;
+}
+
+.facebook{
+    width: 100px;
+    height: 50px;
+}
+
+.apple{
+    width: 100px;
+    height: 50px;
+}
+
+ 
+.option2 input{
+    width: 300px;
+    height: 50px;
+}
+
+.checkbox{
+    width: 20px !important;
+    height: 20px !important; 
+    display: inline-block;
+}
+
+.privacy-poplicy{
+    display: inline-block;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+footer{
+    background-color: rgb(232, 230, 230);
+    margin-top: 300px;
+    /* height: 600px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerTop{
+    padding-top: 100px;
+}
+
+.footerAbout{
+    font-size: 20px;
+}
+
+.footerAbout ul{
+    margin-left: -30px;
+}
+
+.footerAbout li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.footerAbout li i{
+    color: black;  
+}
+
+.footerAbout li:hover{
+    background-color: blue;
+}
+
+.footerAbout li:hover i{
+    color: white;
+}
+
+.myAccount{
+    margin-left: 90px;
+}
+
+.information{
+    margin-left: 15px;
+}
+
+
+.information li, .myAccount li{
+    padding-top: 10px;
+    transition: 0.6s;
+}
+
+.information li a, .myAccount li a{
+    text-decoration:  none;
+    color: rgb(101, 100, 100);
+}
+
+.information li:hover a, .myAccount li:hover a{
+    color: blue;
+}
+
+.phone{
+    width: 300px;
+}
+
+.phone p{
+    color: gray;
+}
+
+.phone a{
+    text-decoration: none;
+    color: gray;
+}
+
+.phone a:hover{
+    color: blue;
+}
+
+.phone a i{
+    color: black;
+}
+
+
+.footerBottom{
+    border-top: 1px gray solid;
+    margin-top: 90px;
+    padding-top: 20px;
+    color: rgb(165, 164, 164);
+}
+
+.footerBottom a, .footerBottom p{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 300px;
 }

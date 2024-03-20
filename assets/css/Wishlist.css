@@ -99,3 +99,116 @@
     margin-right: 10px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+/* ------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+
+footer{
+    background-color: rgb(232, 230, 230);
+    margin-top: 300px;
+    /* height: 600px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerTop{
+    padding-top: 100px;
+}
+
+.footerAbout{
+    font-size: 20px;
+}
+
+.footerAbout ul{
+    margin-left: -30px;
+}
+
+.footerAbout li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.footerAbout li i{
+    color: black;  
+}
+
+.footerAbout li:hover{
+    background-color: blue;
+}
+
+.footerAbout li:hover i{
+    color: white;
+}
+
+.myAccount{
+    margin-left: 90px;
+}
+
+.information{
+    margin-left: 15px;
+}
+
+
+.information li, .myAccount li{
+    padding-top: 10px;
+    transition: 0.6s;
+}
+
+.information li a, .myAccount li a{
+    text-decoration:  none;
+    color: rgb(101, 100, 100);
+}
+
+.information li:hover a, .myAccount li:hover a{
+    color: blue;
+}
+
+.phone{
+    width: 300px;
+}
+
+.phone p{
+    color: gray;
+}
+
+.phone a{
+    text-decoration: none;
+    color: gray;
+}
+
+.phone a:hover{
+    color: blue;
+}
+
+.phone a i{
+    color: black;
+}
+
+
+.footerBottom{
+    border-top: 1px gray solid;
+    margin-top: 90px;
+    padding-top: 20px;
+    color: rgb(165, 164, 164);
+}
+
+.footerBottom a, .footerBottom p{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 300px;
+}
