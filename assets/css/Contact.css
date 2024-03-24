@@ -105,6 +105,79 @@
 
 /* ------------------------------------------------- */
 
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.message{
+    border: 1px rgba(211, 211, 211, 0.253) solid;
+    width: 1500px;
+    margin-left: 500px;
+    border-top: none;
+    box-shadow: 10px 10px 4px  rgba(211, 211, 211, 0.412);
+}
+
+.messageLeft{
+    margin-left: -500px;
+    margin-top: 90px;
+    display: inline-block;
+}
+
+.messageLeft h3{
+    margin-left: -610px;
+}
+
+.messageLeft p{
+    margin-left: -700px;
+    margin-top: 30px;
+    
+}
+
+.messageLeft input{
+    width: 800px;
+    height: 45px;
+    padding-left: 20px;
+    border: gray 1px solid;
+    font-size: smaller;
+}
+
+
+.messageLeft input:last-child{
+    height: 130px;
+    
+}
+
+.checkbox{
+    margin-left: -220px;
+    margin-top: 30px;
+    width: 20px !important;
+    height: 20px !important; 
+    display: inline-block;
+}
+
+.save{
+    display: inline-block;
+    font-weight: 400;
+}
+
+.message button{
+    display: block;
+    margin-left: 600px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding: 9px 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.message button:hover{
+    background-color: rgb(43, 113, 235);
+    border: rgb(43, 113, 235) 1px solid;
+}
+
 
 
 
