@@ -70,12 +70,12 @@
     color: black;
 }
 
-.page {
+.menu {
     margin-left: -160px;
 }
 
-.page li{
-    padding-right: 10px;    
+.menu li{
+    margin-right: 10px;    
 }
 
 .search input{
@@ -105,6 +105,80 @@
 
 /* ------------------------------------------------- */
 
+.heading{
+    background-image: url(../images/breadcrumb-bg-1.jpg);
+    overflow: hidden;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+    text-align: center;
+}
+
+.heading h3{
+    margin-top: 130px;
+    font-size: 40px;
+    color: white;
+}
+
+.heading p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.page{
+    padding-top: 100px;
+}
+
+.page .container{
+    margin-top: 50px;
+}
+
+.page .container ul{
+    margin-left: -20px;
+    margin-top: 25px;
+}
+
+.page .container li{
+    padding-right: 10px;
+    display: inline;
+    font-size: smaller;
+}
+
+.page .container li i{
+    color: rgb(97, 97, 255);
+}
+
+.page h1{
+    width: 900px;
+    font-size: 37px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.page h1:hover{
+    color: rgb(0, 115, 255);
+}
+
+.page p{
+    width: 900px;
+}
+
+.page-left .container button{
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.page-left .container button:hover{
+    background-color: white;
+    color: black;
+}
 
 
 
