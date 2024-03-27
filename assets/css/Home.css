@@ -1,12 +1,101 @@
+.headerOne{
+    background-color: black;
+    height: 30px;
+}
+
+.headerLeft{
+    padding-left: 500px;
+    display: inline-block;
+}
+
+.headerLeft i{
+    color: rgb(255, 234, 0);
+    padding-right: 5px;
+}
+
+.headerLeft p{
+    color: rgb(215, 213, 213);
+    font-size: smaller;
+}
+
+
+.headerRight{
+    display: inline-block;
+    margin-left: 300px;
+    width: 500px;
+}
+
+
+.language{
+    display: inline-block;
+    border-right: gray 1px solid;
+    padding-right: 20px;
+}
+
+.currency{
+    display: inline-block;
+    border-right: gray 1px solid;
+    padding-right: 20px;
+
+
+}
+
+.setting{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.language a, .currency a, .setting a{
+    text-decoration: none;
+}
+
+.languageHeader, .currencyHeader, .settingHeader{
+    color: white;
+}
 
 
 
 
+.headerTwo .container{
+    margin-top: 40px;
+}
+
+.headerTwo .container .logo{
+    margin-left: -25px;
+}
 
 /* ------------------------------------------------- */
 
 
+main{
+    margin-top: 200px;
+}
 
+
+.subscribe{
+    background-color: rgb(48, 117, 235);
+    color: white;
+    height: 180px;
+    padding-top: 55px;
+}
+
+.subscribe .subscribeEnter input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-right: -7px;
+    padding-left: 20px;
+}
+
+.subscribe .subscribeEnter button{
+    height: 52px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}   
 
 /* ---------------------------------------------------------- */
 
@@ -14,8 +103,6 @@
 
 footer{
     background-color: rgb(232, 230, 230);
-    margin-top: 300px;
-    /* height: 600px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
