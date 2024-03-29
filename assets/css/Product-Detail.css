@@ -344,3 +344,67 @@ footer{
     padding-bottom: 20px;
     border-bottom: 1px solid gray;
 }
+
+
+.navbar h3{
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navbar .headers{
+    margin-top: 100px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.navbar h3:first-child{
+    border-bottom: 1px solid black;
+    margin-left: 400px;
+    color: black;
+}
+
+.navbar h3:last-child{
+    margin-right: 400px;
+}
+
+.description{
+    width: 1300px;
+}
+
+.description p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.description h4{
+    padding-top: 90px;
+}
+
+.description h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.border{
+    border-bottom: 1px gray solid;
+    width: 2350px;
+    margin-left: -500px;
+}
+
+.related-products{
+    margin-top: 200px;
+    padding-left: 500px;
+}
+
+.related-products h3{
+    padding-left: 30px;
+    font-size: 24px;
+    color: rgb(0, 119, 255);
+}
+
+.related-products h2{
+    font-size: 50px;
+    margin-left: -50px;
+}
