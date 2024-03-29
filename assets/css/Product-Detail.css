@@ -116,9 +116,127 @@ main{
     color: gray;
 }
 
+.selection-view {
+    width: 200px;
+    display: inline-block;
+}
+
+.selection-view li{
+    list-style-type: none;
+    width: 130px;
+    height:  160px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+.selection-view li:hover{
+    border: 1px solid black;
+}
+
+.selection-view li img{
+    width: 110px;
+
+}
+
+.main-image{
+    display: inline-block;
+}
+
+.main-image img{
+    /* width: 100px; */
+    margin-top: -60px;
+    width: 700px;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+}
 
 
+.info{
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+}
 
+.inStock, .reviews{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+ .info i{
+    display: inline-block;
+    color: rgb(255, 208, 0);
+}
+
+.reviews{
+    margin-left: 10px;
+}
+
+.actualPrice, .currentPrice{
+    display: inline-block;
+}
+
+.actualPrice{
+    color: gray;
+    font-size: 20px;
+}
+
+.currentPrice{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+
+.colours{
+    width: 20px;
+    height: 20px;
+        border-radius: 50%;
+        display: inline-block;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.buttons{
+    display: block;
+    margin-top: 20px;
+}
+
+.quantity{
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border: none;
+}
+
+.cart{
+    width: 344px;
+    height: 50px;
+    display: inline-block;
+    background-color: white;
+    font-size: 20px;
+}
+
+.buy{
+    width: 498px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-size: 25px;
+}
 
 /* ---------------------------------------------------------- */
 
@@ -220,4 +338,9 @@ footer{
     text-decoration: none;
     display: inline-block;
     margin-right: 300px;
+}
+
+.info{
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
 }
